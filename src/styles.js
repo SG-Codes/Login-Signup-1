@@ -25,6 +25,10 @@ const styles = StyleSheet.create({
         width: 200,
         borderRadius: 20,
         marginTop: 50
+    },
+    error: {
+        color: 'red',
+        fontSize: 16,
     }
 })
 

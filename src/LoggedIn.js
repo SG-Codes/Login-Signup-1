@@ -5,9 +5,13 @@ class LoggedIn extends Component {
     render() { 
         return (
             <View>
-                <Text>
+                <Text style={{ fontSize: 28 }}>
                     You are successfully Logged in
                 </Text>
+                <Text style={{ fontSize: 28 }}>
+                    {this.props.route.params.name}
+                </Text>
+        <Text style={{ fontSize: 28 }}>{this.props.route.params.email}</Text>
             </View>
         );
     }
